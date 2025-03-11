@@ -10,11 +10,8 @@ int main(int argc, char *argv[]){
 // Make a pointer to the first argument
 	char* name = argv[1];
 
-/* Detect if the string has these characters right before the end :
->i
->io
->y
-*/
+// Romanize the string :
+
 	int i;
 	int o;
 	int len = strlen(name);
