@@ -23,6 +23,7 @@ int main(int argc, char *argv[]){
 	if(name[i] == 'U'){
 	name[i] = 'V';}
 	}
+	
 // Print the converted string
 
 	printf("%s\n", name);
